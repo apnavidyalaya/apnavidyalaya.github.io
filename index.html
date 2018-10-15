@@ -47,10 +47,15 @@
           <a class="js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#whyus">Why us?</a>
+          <a class="js-scroll-trigger" href="#whyus">Why choose us?</a>
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#whatsapp">
+              <p>Number: 783879-3535</p>
+              <p>email: apnavidyalaya [at] gmail.com</p></a>
         </li>
       </ul>
     </nav>
@@ -60,9 +65,10 @@
       <div class="container text-center my-auto">
         <h1 class="mb-1">Apna Vidyalaya</h1>
         <h3 class="mb-5">
-          <em>A placement and industry oriented computer coaching</em>
+          <em>A placement oriented computer training institute in Greater Noida</em>
         </h3>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#courses">Find Out More</a>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#courses">View Courses</a>
+        <a class="btn btn-primary btn-xl" href="https://wa.me/917838793536">Whatsapp Us</a>
       </div>
       <div class="overlay"></div>
     </header>
@@ -75,40 +81,43 @@
           <h2 class="mb-5">Courses</h2>
         </div>
         <div class="row no-gutters">
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+          <div class="col-lg-6 course-div" data-toggle="modal" data-target="#courseModal" data-courseid="web">
+            <div class="portfolio-item">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Stationary</h2>
-                  <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                  <h2>Web Developmet</h2>
+                  <p class="mb-0">3 months weekend course covering node.js, JavaScript, HTML, CSS and MongoDB</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-            </a>
+              <!-- <img class="img-fluid" src="img/portfolio-1.jpg" alt=""> -->
+              <img class="img-fluid" src="img/web.jpg" alt="">
+            </div>
           </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+          <div class="col-lg-6 course-div" data-toggle="modal" data-target="#courseModal" data-courseid="ds">
+            <div class="portfolio-item">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Ice Cream</h2>
-                  <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                  <h2>Data Structures using C/C++</h2>
+                  <p class="mb-0">3 months weekend course covering data structures and algorithms using C/C++</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-            </a>
+              <!-- <img class="img-fluid" src="img/portfolio-2.jpg" alt=""> -->
+              <img class="img-fluid" src="img/ds-image.jpg" alt="">
+            </div>
           </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+          <div class="col-lg-6 course-div" data-toggle="modal" data-target="#courseModal" data-courseid="cpp">
+            <div class="portfolio-item" >
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Strawberries</h2>
-                  <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                  <h2>C/C++</h2>
+                  <p class="mb-0">3 months weekend course covering language fundamentals of C and C++</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-            </a>
+              <!-- <img class="img-fluid" src="img/portfolio-3.jpg" alt=""> -->
+              <img class="img-fluid" src="img/c-image.jpg" alt="">
+            </div>
           </div>
-          <div class="col-lg-6">
+          <!-- <div class="col-lg-6">
             <a class="portfolio-item" href="#">
               <span class="caption">
                 <span class="caption-content">
@@ -118,7 +127,7 @@
               </span>
               <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -127,6 +136,9 @@
     <section class="callout" id="faculty">
       <div class="container text-center">
         <h2 class="mx-auto mb-5">Meet the faculty!</h2>
+          <h3 class="text-tertiary mb-0">Ravi Shankar</h3>
+          <h4 class="text-tertiary mb-0">B.Tech, Computer Science, NIT Allahabad</h4>
+          <h4 class="text-tertiary mb-0">Software Engineer, UrbanClap</h4>
         <img class="img-faculty" src="img/ravi.jpg" alt="">
         <div>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Us</a>
@@ -139,10 +151,12 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h2>Apna Vidyalaya is the perfect place to join if you are looking to do some good projects</h2>
-            <p class="lead mb-5">Here you get guided with an industry expert and a passionate teacher
-              <a href="http://ravishankarkumar.com/">Ravi Shankar</a>!</p>
-            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#whyus">Why us?</a>
+            <h2>Apna Vidyalaya is the perfect place if you are preparing for placement in IT Industry</h2>
+            <p class="lead mb-3">The faculty (Ravi Shankar) has done graduation from NIT Allahabad</p>
+            <p class="lead mb-3">We have experience doing tech startup (Coder Pigeon, Allahabad)</p>
+            <p class="lead mb-3">We have solid Industry Experience, working on multiple problem statements at UrbanClap</p>
+            <p class="lead mb-5">Interview candidates at UrbanClap, so know ins-and-outs of interview process and interviewer mindset</p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#whyus">Why choose us?</a>
           </div>
         </div>
       </div>
@@ -156,6 +170,14 @@
           <h2 class="mb-5">Why us?</h2>
         </div>
         <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <p class="lead mb-5">Every year, several lakhs of IT graduates come out of engineering colleges in India. But, the jobs are limited.</p>
+                <p class="lead mb-3">Of the people that graduate every year, a significant percentage of students are not properly skilled to get a job. Although Indian students are respected all across the world for their smartness, their lack of training and skills land them nowhere. When these students don't get job/internship after initial struggle, they loose self confidence. In India, especially Greater Noida, we have so much of colleges that the seats in these colleges remain vacant. They advertise to get more students. But, we are seriously lacking when it comes to providing our students with some training and orientation for placement.</p>
+                <p class="lead mb-5">While interviewing candidates at UrbanCLap, I myself have realised that candidates are generally smart, but they lack skills. So, I have decided to come forward and start Apna Vidyalaya to provide proper IT training to students so that they are well suited for placements.</p>
+                <a class="btn btn-xl btn-light mr-4" href="https://wa.me/917838793536">Click to enquire on Whatsapp!</a>
+            </div>
+        </div>
+        <!-- <div class="row">
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-screen-smartphone"></i>
@@ -194,7 +216,7 @@
             </h4>
             <p class="text-faded mb-0">I mustache you a question...</p>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -203,31 +225,31 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h2>Drop us a text on whatsapp at 7838[seven-nine]3536</h2>
-            <p class="lead mb-5">ALternatively, you can email us at apnavidyalaya[at]gmail.com</p>
-            <a class="btn btn-dark btn-xl js-scroll-trigger" href="https://wa.me/917838793536">Send whatsapp message</a>
+            <h2>Contact us on whatsapp at 783879-3536</h2>
+            <p class="lead mb-5">Alternatively, you can email us at apnavidyalaya [at] gmail.com</p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="https://wa.me/917838793536">Click to enquire over whatsapp</a>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Call to Action -->
-    <section class="content-section bg-primary text-white">
+    <!-- <section class="content-section bg-primary text-white">
       <div class="container text-center">
         <h2 class="mb-4">The buttons below are impossible to resist...</h2>
         <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
         <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
       </div>
-    </section>
+    </section> -->
 
     <!-- Map -->
-    <section id="contact" class="map">
+    <!-- <section id="contact" class="map">
       <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
       <br/>
       <small>
         <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
       </small>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer class="footer text-center">
@@ -238,7 +260,7 @@
               <i class="icon-social-facebook"></i>
             </a>
           </li>
-          <li class="list-inline-item">
+          <!-- <li class="list-inline-item">
             <a class="social-link rounded-circle text-white mr-3" href="#">
               <i class="icon-social-twitter"></i>
             </a>
@@ -247,9 +269,9 @@
             <a class="social-link rounded-circle text-white" href="#">
               <i class="icon-social-github"></i>
             </a>
-          </li>
+          </li> -->
         </ul>
-        <p class="text-muted small mb-0">Copyright &copy; Your Website 2018</p>
+        <p class="text-muted small mb-0">Copyright &copy; Apna Vidyalaya @ 2018</p>
       </div>
     </footer>
 
@@ -267,6 +289,29 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.min.js"></script>
+    <script src="js/course-modal.js"></script>
+
+
+    <div class="modal fade" id="courseModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div> -->
+          <div class="modal-body">
+            Course starting during end of January 2019
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            <a class="btn btn-primary" href="https://wa.me/917838793536">Send Interest</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </body>
 
