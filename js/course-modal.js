@@ -2,22 +2,38 @@ var courses ={
   web: {
     image: 'web.jpg',
     title: 'Web Development',
-    description: '3 months weekend course covering node.js, JavaScript, HTML, CSS and MongoDB'
+    description: '3 months weekend course covering node.js, JavaScript, HTML, CSS and MongoDB',
+    duration: 'Duration: 3 months (On weekends)',
+    price: 'Price: Rs. 10000/-',
+    discount: 'Discount: 40%',
+    discountedPrice: 'Final Price: Rs. 6000/-'
   },
   ds: {
     image: 'ds-image.jpg',
     title: 'Data Structures using C/C++',
-    description: '3 months weekend course covering data structures and algorithms using C/C++'
+    description: '3 months weekend course covering data structures and algorithms using C/C++',
+    duration: 'Duration: 3 months (On weekends)',
+    price: 'Price: Rs. 10000/-',
+    discount: 'Discount: 40%',
+    discountedPrice: 'Final Price: Rs. 6000/-'
   },
   cpp: {
     image: 'c-image.jpg',
     title: 'C/C++',
-    description: '3 months weekend course covering language fundamentals of C and C++'
+    description: '3 months weekend course covering language fundamentals of C and C++',
+    duration: 'Duration: 3 months (On weekends)',
+    price: 'Price: Rs. 10000/-',
+    discount: 'Discount: 40%',
+    discountedPrice: 'Final Price: Rs. 6000/-'
   },
   default: {
     image: 'c-image.jpg',
     title: 'Course Detal Missing',
-    description: 'The exact course you are looking for is not available right now, contact us to get more details'
+    description: 'The exact course you are looking for is not available right now, contact us to get more details',
+    duration: 'Duration: 3 months (On weekends)',
+    price: 'Price: Rs. 10000/-',
+    discount: 'Discount: 40%',
+    discountedPrice: 'Final Price: Rs. 6000/-'
   }
 }
 
@@ -58,7 +74,11 @@ $('.course-div').on('click', function (event) {
   var modal = $('#courseModal');
   modal.find('.modal-body').css('background-image', 'url(' + backgroundImageString + ')');
   modal.find('.modal-title').text(courseDetail.title);
-  modal.find('.modal-description').text(courseDetail.description);
+  modal.find('#description').text(courseDetail.description);
+  modal.find('#duration').text(courseDetail.duration);
+  modal.find('#price').text(courseDetail.price);
+  modal.find('#discount').text(courseDetail.discount);
+  modal.find('#discountedPrice').text(courseDetail.discountedPrice);
   console.log(courseDetail);
   modal.modal({
     show: true
