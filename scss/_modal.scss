@@ -1,14 +1,30 @@
-.modal-header{
-  border-bottom: none;
-  padding: 15px 15px 0 15px;
-  background-image: url('/img/ds-image.jpg');
-  height: 208px;
+
+.modal-body{
+  padding: 0;
+  min-height: 208px;
   background-size: cover;
   background-repeat: no-repeat;
-  .modal-title{
-    color: white;
-    display: block;
-    text-align: center;
+  // background: linear-gradient(rgba(249, 119, 76,.75), rgba(128, 42, 12,.85));
+  background-color: black;
+  background-image: url("/img/ds-image.jpg");
+  // background-color: black;
+  .overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    // background: rgba(#1d809f,0.3);
+    background: rgba(#174452,0.7);
+    .modal-title{
+      color: #FFF;
+      text-align: center;
+      margin: 55px 20px 35px;
+    }
+    .modal-description{
+      color: #FFF;
+      padding: 0 20px 20px;
+    }
   }
 }
 
