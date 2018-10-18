@@ -18,6 +18,10 @@ body {
   padding: 1.25rem 2.5rem;
 }
 
+.btn-margin {
+  margin: 0.25rem;
+}
+
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
@@ -328,6 +332,39 @@ footer.footer .social-link {
 footer.footer .social-link:hover {
   background-color: #155d74;
   text-decoration: none;
+}
+
+.modal-body {
+  padding: 0;
+  min-height: 208px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-image: url("/img/ds-image.jpg");
+}
+
+.modal-body .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(23, 68, 82, 0.7);
+}
+
+.modal-body .overlay .modal-title {
+  color: #FFF;
+  text-align: center;
+  margin: 55px 20px 35px;
+}
+
+.modal-body .overlay .modal-description {
+  color: #FFF;
+  padding: 0 20px 20px;
+}
+
+.modal-footer {
+  border-top: none;
 }
 
 a {

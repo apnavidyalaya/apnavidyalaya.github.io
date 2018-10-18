@@ -56,6 +56,11 @@ $('.course-div').on('click', function (event) {
   var backgroundImageString = 'img/' + courseDetail.image;
   //
   var modal = $('#courseModal');
-  modal.find('.modal-header').css('backgroundImage', backgroundImageString);
+  modal.find('.modal-body').css('background-image', 'url(' + backgroundImageString + ')');
+  modal.find('.modal-title').text(courseDetail.title);
+  modal.find('.modal-description').text(courseDetail.description);
   console.log(courseDetail);
+  modal.modal({
+    show: true
+  });
 });
