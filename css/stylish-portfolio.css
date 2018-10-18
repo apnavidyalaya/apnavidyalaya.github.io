@@ -18,6 +18,10 @@ body {
   padding: 1.25rem 2.5rem;
 }
 
+.btn-margin {
+  margin: 0.25rem;
+}
+
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
@@ -328,6 +332,25 @@ footer.footer .social-link {
 footer.footer .social-link:hover {
   background-color: #155d74;
   text-decoration: none;
+}
+
+.modal-header {
+  border-bottom: none;
+  padding: 15px 15px 0 15px;
+  background-image: url("/img/ds-image.jpg");
+  height: 208px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.modal-header .modal-title {
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.modal-footer {
+  border-top: none;
 }
 
 a {
