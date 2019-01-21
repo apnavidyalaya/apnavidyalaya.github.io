@@ -1,6 +1,6 @@
 /*!
  * Apna Vidyalaya - Apna Vidyalaya v5.0.1 (http://apnavidyalaya.com)
- * Copyright 2013-2018 Apna Vidyalaya
+ * Copyright 2013-2019 Apna Vidyalaya
  * Licensed under MIT (https://github.com/BlackrockDigital/apnavidyalaya/blob/master/LICENSE)
  */
 

@@ -4,6 +4,7 @@ var courses ={
     title: 'Web Development',
     description: '3 months weekend course covering node.js, JavaScript, HTML, CSS and MongoDB',
     duration: 'Duration: 3 months (On weekends)',
+    dateStart: "16th Feb 2019",
     price: 'Price: Rs. 10000/-',
     discount: 'Discount: 40%',
     discountedPrice: 'Final Price: Rs. 6000/-'
@@ -25,6 +26,16 @@ var courses ={
     price: 'Price: Rs. 10000/-',
     discount: 'Discount: 40%',
     discountedPrice: 'Final Price: Rs. 6000/-'
+  },
+  java: {
+    image: 'c-image.jpg',
+    title: 'Core Java',
+    description: '3 months weekend course covering Core Java and latest language features',
+    duration: 'Duration: 3 months (On weekends)',
+    dateStart: "16th Feb 2019",
+    price: 'Price: Rs. 10000/-',
+    discount: 'Discount: 50%',
+    discountedPrice: 'Final Price: Rs. 5000/-'
   },
   default: {
     image: 'c-image.jpg',
@@ -79,6 +90,7 @@ $('.course-div').on('click', function (event) {
   modal.find('#price').text(courseDetail.price);
   modal.find('#discount').text(courseDetail.discount);
   modal.find('#discountedPrice').text(courseDetail.discountedPrice);
+  modal.find('#dateStart').text(courseDetail.dateStart);
   console.log(courseDetail);
   modal.modal({
     show: true
