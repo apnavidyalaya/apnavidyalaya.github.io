@@ -430,3 +430,7 @@ a:hover, a:focus, a:active {
 .text-tertiary {
   color: #FFF !important;
 }
+
+.text-danger {
+  color: red !important;
+}
