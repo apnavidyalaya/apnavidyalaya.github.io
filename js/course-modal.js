@@ -2,12 +2,12 @@ var courses ={
   web: {
     image: 'web.jpg',
     title: 'Web Development',
-    description: '3 months weekend course covering node.js, JavaScript, HTML, CSS and MongoDB',
-    duration: 'Duration: 3 months (On weekends)',
+    description: '2.5 months weekend course covering node.js, JavaScript, HTML, CSS and MongoDB',
+    duration: 'Duration: 2.5 months (On weekends)',
     dateStart: "16th Feb 2019",
     price: 'Price: Rs. 10000/-',
-    discount: 'Discount: 40%',
-    discountedPrice: 'Final Price: Rs. 6000/-'
+    discount: 'Discount: 75%',
+    discountedPrice: 'Final Price: Rs. 2500/-'
   },
   ds: {
     image: 'ds-image.jpg',
@@ -30,12 +30,12 @@ var courses ={
   java: {
     image: 'c-image.jpg',
     title: 'Core Java',
-    description: '3 months weekend course covering Core Java and latest language features',
-    duration: 'Duration: 3 months (On weekends)',
+    description: '2.5 months weekend course covering Core Java and latest language features',
+    duration: 'Duration: 2.5 months (On weekends)',
     dateStart: "16th Feb 2019",
     price: 'Price: Rs. 10000/-',
-    discount: 'Discount: 50%',
-    discountedPrice: 'Final Price: Rs. 5000/-'
+    discount: 'Discount: 75%',
+    discountedPrice: 'Final Price: Rs. 2500/-'
   },
   default: {
     image: 'c-image.jpg',
