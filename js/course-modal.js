@@ -6,8 +6,8 @@ var courses ={
     duration: 'Duration: 2.5 months (On weekends)',
     dateStart: "16th Feb 2019",
     price: 'Price: Rs. 10000/-',
-    discount: 'Discount: 75%',
-    discountedPrice: 'Final Price: Rs. 2500/-'
+    discount: 'Discount: 60%',
+    discountedPrice: 'Final Price: Rs. 4000/-'
   },
   ds: {
     image: 'ds-image.jpg',
@@ -34,8 +34,8 @@ var courses ={
     duration: 'Duration: 2.5 months (On weekends)',
     dateStart: "16th Feb 2019",
     price: 'Price: Rs. 10000/-',
-    discount: 'Discount: 75%',
-    discountedPrice: 'Final Price: Rs. 2500/-'
+    discount: 'Discount: 60%',
+    discountedPrice: 'Final Price: Rs. 4000/-'
   },
   default: {
     image: 'c-image.jpg',
