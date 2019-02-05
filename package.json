@@ -1,26 +1,11 @@
 {
-    "title": "Apna Vidyalaya",
-    "name": "apnavidyalaya",
-    "version": "5.0.1",
-    "description": "Apna Vidyalaya Home Page",
-    "homepage": "http://apnavidyalaya.com",
-    "license": "MIT",
-    "author": "Apna Vidyalaya",
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "5.3.1",
-        "bootstrap": "4.1.3",
-        "jquery": "3.3.1",
-        "jquery.easing": "^1.4.1",
-        "simple-line-icons": "^2.4.1"
-    },
-    "devDependencies": {
-        "browser-sync": "2.24.7",
-        "gulp": "^3.9.1",
-        "gulp-autoprefixer": "6.0.0",
-        "gulp-clean-css": "3.10.0",
-        "gulp-header": "2.0.5",
-        "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.1",
-        "gulp-uglify": "3.0.1"
-    }
+  "name": "websrc",
+  "version": "1.0.0",
+  "description": "Web src of apnavidyalaya",
+  "author": "Ravi Shankar",
+  "main": "generate.js",
+  "dependencies": {
+    "fs-extra": "latest",
+    "swig": "latest"
+  }
 }
