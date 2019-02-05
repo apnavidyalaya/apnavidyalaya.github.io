@@ -1,0 +1,11 @@
+{
+  "name": "websrc",
+  "version": "1.0.0",
+  "description": "Web src of apnavidyalaya",
+  "author": "Ravi Shankar",
+  "main": "generate.js",
+  "dependencies": {
+    "fs-extra": "latest",
+    "swig": "latest"
+  }
+}
