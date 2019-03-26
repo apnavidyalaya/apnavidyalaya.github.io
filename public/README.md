@@ -1,1 +1,1 @@
-Apna Vidyalaya
+Coding Vidyalaya
